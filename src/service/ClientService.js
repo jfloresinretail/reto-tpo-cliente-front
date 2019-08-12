@@ -1,5 +1,5 @@
 function renderClientInfo(client) {
-    return "Name: " + client.client.name + ", "
+    return "Nombre: " + client.client.name + ", "
         + "Last Name: " + client.client.lastName + ", "
         + "Age: " + client.client.age + ", "
         + "Birth Date: " + new Date(client.client.birthDate).toDateString();        
